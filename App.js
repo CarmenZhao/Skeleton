@@ -17,6 +17,7 @@ export default function App(props) {
           <Stack.Navigator>
             <Stack.Screen name="Home" component={BottomTabNavigator} />
             <p>hi carmen</p>
+            <p>hi clara</p>
           </Stack.Navigator>
         </NavigationContainer>
       </StocksProvider>
