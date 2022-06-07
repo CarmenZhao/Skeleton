@@ -16,6 +16,7 @@ export default function App(props) {
         <NavigationContainer theme={DarkTheme}>
           <Stack.Navigator>
             <Stack.Screen name="Home" component={BottomTabNavigator} />
+            <p>hi carmen</p>
           </Stack.Navigator>
         </NavigationContainer>
       </StocksProvider>
